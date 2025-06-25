@@ -9,7 +9,7 @@
     },
     {
       "name": "background_locator_2",
-      "rootUri": "file:///C:/Users/moham/AppData/Local/Pub/Cache/git/background_locator_2_gradle_migration-2021e7b4e3c90408e30b759e299f4e6145526175/",
+      "rootUri": "file:///C:/Users/moham/AppData/Local/Pub/Cache/git/background_locator_update-30817f21d6d0a96c5f866cceed34e14ff2770c72/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -170,7 +170,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2025-06-25T13:26:22.349013Z",
+  "generated": "2025-06-25T14:08:02.878283Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
   "flutterRoot": "file:///C:/Users/moham/fvm/versions/3.27.3",

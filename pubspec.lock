@@ -13,11 +13,11 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "fix/gradle-compatibility"
-      resolved-ref: "2021e7b4e3c90408e30b759e299f4e6145526175"
-      url: "https://github.com/sultan18kh/background_locator_2_gradle_migration.git"
+      ref: HEAD
+      resolved-ref: "30817f21d6d0a96c5f866cceed34e14ff2770c72"
+      url: "https://github.com/Ammourie/background_locator_update.git"
     source: git
-    version: "2.0.7"
+    version: "2.0.6"
   boolean_selector:
     dependency: transitive
     description:
