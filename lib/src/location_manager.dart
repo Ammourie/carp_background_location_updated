@@ -138,4 +138,8 @@ class LocationManager {
   /// Set the notification icon color.
   /// Android only.
   set notificationIconColor(Color color) => _notificationIconColor = color;
+  
+  /// Set the notification channel name.
+  /// Android only.
+  set notificationChannelName(String name) => _channelName = name;
 }
