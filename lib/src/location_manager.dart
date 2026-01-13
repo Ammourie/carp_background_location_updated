@@ -130,4 +130,12 @@ class LocationManager {
 
   /// Set the update accuracy. See [LocationAccuracy] for options.
   set accuracy(LocationAccuracy accuracy) => _accuracy = accuracy;
+
+  /// Set the notification icon.
+  /// Android only.
+  set notificationIcon(String icon) => _notificationIcon = icon;
+
+  /// Set the notification icon color.
+  /// Android only.
+  set notificationIconColor(Color color) => _notificationIconColor = color;
 }
