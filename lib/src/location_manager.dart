@@ -17,6 +17,9 @@ class LocationManager {
           "Background location is on to keep the app up-to-date with your location. "
           "This is required for main features to work properly when the app is not running.";
 
+  String _notificationIcon = "";
+  Color _notificationIconColor = Colors.grey;
+
   int _interval = 5;
   double _distanceFilter = 0;
   LocationAccuracy _accuracy = LocationAccuracy.NAVIGATION;
@@ -89,6 +92,8 @@ class LocationManager {
               notificationTitle: _notificationTitle,
               notificationMsg: _notificationMsg,
               notificationBigMsg: _notificationBigMsg,
+              notificationIcon: _notificationIcon,
+              notificationIconColor: _notificationIconColor,
             )),
         iosSettings: IOSSettings(
           accuracy: _accuracy,
